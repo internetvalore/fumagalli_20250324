@@ -99,7 +99,6 @@ function App() {
 
       <main>
         <Hero />
-        <AboutUs />
         <div id="gallery" className="py-20 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
@@ -111,6 +110,7 @@ function App() {
             <Gallery />
           </div>
         </div>
+        <AboutUs />
         <Products />
         <Benefits />
         <Testimonials />
