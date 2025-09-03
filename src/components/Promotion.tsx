@@ -16,15 +16,15 @@ const Promotion = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* Images Section */}
             <div className="p-8">
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div className="aspect-square overflow-hidden rounded-lg shadow-lg">
+              <div className="grid grid-cols-1 gap-6">
+                <div className="aspect-[4/3] overflow-hidden rounded-lg shadow-lg">
                   <img
                     src="https://leprimescelte.com/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-16-at-09.49.55.jpeg"
                     alt="Letto a scomparsa in promozione - vista 1"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                   />
                 </div>
-                <div className="aspect-square overflow-hidden rounded-lg shadow-lg">
+                <div className="aspect-[4/3] overflow-hidden rounded-lg shadow-lg">
                   <img
                     src="https://leprimescelte.com/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-16-at-09.49.56-3.jpeg"
                     alt="Letto a scomparsa in promozione - vista 2"
