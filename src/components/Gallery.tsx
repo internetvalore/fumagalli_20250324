@@ -6,6 +6,14 @@ const Gallery = () => {
 
   const images = [
     {
+      url: 'https://leprimescelte.com/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-16-at-09.49.55.jpeg',
+      title: 'Letto Matrimoniale a Scomparsa - Chiuso'
+    },
+    {
+      url: 'https://leprimescelte.com/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-16-at-09.49.56-3.jpeg',
+      title: 'Letto Matrimoniale a Scomparsa - Aperto'
+    },
+    {
       url: 'https://leprimescelte.com/wp-content/uploads/2025/03/Fum001.jpeg',
       title: 'Letto a Scomparsa con Design Moderno'
     },
@@ -46,14 +54,6 @@ const Gallery = () => {
       title: 'Letto a Scomparsa di Design'
     },
     {
-      url: 'https://leprimescelte.com/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-16-at-09.49.55.jpeg',
-      title: 'Letto a Scomparsa Matrimoniale'
-    },
-    {
-      url: 'https://leprimescelte.com/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-16-at-09.49.55-1.jpeg',
-      title: 'Letto con Libreria Integrata'
-    },
-    {
       url: 'https://leprimescelte.com/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-16-at-09.49.56.jpeg',
       title: 'Soluzione Salvaspazio'
     },
@@ -64,10 +64,6 @@ const Gallery = () => {
     {
       url: 'https://leprimescelte.com/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-16-at-09.49.56-2.jpeg',
       title: 'Letto a Scomparsa Personalizzato'
-    },
-    {
-      url: 'https://leprimescelte.com/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-16-at-09.49.56-3.jpeg',
-      title: 'Dettaglio Finiture'
     },
     {
       url: 'https://leprimescelte.com/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-24-at-18.22.19-1.jpeg',
@@ -112,6 +108,10 @@ const Gallery = () => {
     {
       url: 'https://leprimescelte.com/wp-content/uploads/2025/03/WhatsApp-Image-2025-03-08-at-13.56.20.jpeg',
       title: 'Nuova Realizzazione Letto a Scomparsa'
+    },
+    {
+      url: 'https://leprimescelte.com/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-16-at-09.49.55-1.jpeg',
+      title: 'Letto con Libreria Integrata'
     }
   ];
 
