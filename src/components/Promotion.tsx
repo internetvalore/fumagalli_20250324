@@ -63,7 +63,7 @@ const Promotion = () => {
 
               <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-8">
                 <p className="text-yellow-800">
-                  <strong>Nota:</strong> Trasporto e montaggio in base alla destinazione
+                  <strong>Nota:</strong> Prezzo trasporto e montaggio in base alla destinazione
                 </p>
               </div>
 
