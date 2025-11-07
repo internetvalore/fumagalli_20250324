@@ -75,11 +75,11 @@ const Promotion = () => {
 
               <div className="text-center">
                 <a
-                  href="https://wa.me/+393755961916?text=Ciao, sono interessato al letto a scomparsa in promozione a 2000 euro"
+                  href="https://wa.me/+393755961916?text=Ciao, vorrei richiedere un preventivo per un letto a scomparsa personalizzato"
                   className="inline-flex items-center bg-red-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-red-600 transition-colors hover:scale-105 transform duration-300 shadow-lg"
                 >
                   <MessageCircle className="mr-2" size={24} />
-                  Richiedi questa promozione
+                  Richiedi il tuo letto personalizzato
                 </a>
               </div>
             </div>
