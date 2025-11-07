@@ -17,19 +17,25 @@ const Promotion = () => {
             {/* Images Section */}
             <div className="p-8">
               <div className="grid grid-cols-1 gap-6">
-                <div className="aspect-[3/4] overflow-hidden rounded-lg shadow-lg">
+                <div className="aspect-[3/4] overflow-hidden rounded-lg shadow-lg relative">
                   <img
                     src="https://leprimescelte.com/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-16-at-09.49.55.jpeg"
                     alt="Letto a scomparsa in promozione - vista 1"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                   />
+                  <div className="absolute top-4 right-4 bg-red-600 text-white px-6 py-3 rounded-lg text-xl font-bold shadow-xl transform rotate-12">
+                    VENDUTO
+                  </div>
                 </div>
-                <div className="aspect-[3/4] overflow-hidden rounded-lg shadow-lg">
+                <div className="aspect-[3/4] overflow-hidden rounded-lg shadow-lg relative">
                   <img
                     src="https://leprimescelte.com/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-16-at-09.49.56-3.jpeg"
                     alt="Letto a scomparsa in promozione - vista 2"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                   />
+                  <div className="absolute top-4 right-4 bg-red-600 text-white px-6 py-3 rounded-lg text-xl font-bold shadow-xl transform rotate-12">
+                    VENDUTO
+                  </div>
                 </div>
               </div>
             </div>
