@@ -1,7 +1,6 @@
 import React from 'react';
 import { Phone, MapPin, Clock, ChevronDown, Menu, X, MessageCircle } from 'lucide-react';
 import Hero from './components/Hero';
-import Promotion from './components/Promotion';
 import AboutUs from './components/AboutUs';
 import Gallery from './components/Gallery';
 import Products from './components/Products';
@@ -100,7 +99,6 @@ function App() {
 
       <main>
         <Hero />
-        <Promotion />
         <div id="gallery" className="py-20 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
