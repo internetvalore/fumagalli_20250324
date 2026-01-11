@@ -3,7 +3,7 @@ import { AlertCircle } from 'lucide-react';
 
 const PromotionalBanner: React.FC = () => {
   return (
-    <div className="bg-red-600 py-8 mt-16">
+    <div className="bg-red-600 py-8 pt-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center justify-center text-center space-y-3">
           <div className="flex items-center space-x-3">
