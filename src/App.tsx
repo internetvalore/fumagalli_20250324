@@ -1,7 +1,6 @@
 import React from 'react';
 import { Phone, MapPin, Clock, ChevronDown, Menu, X, MessageCircle } from 'lucide-react';
 import Hero from './components/Hero';
-import PromotionalBanner from './components/PromotionalBanner';
 import AboutUs from './components/AboutUs';
 import Gallery from './components/Gallery';
 import Products from './components/Products';
@@ -97,8 +96,6 @@ function App() {
           </div>
         )}
       </nav>
-
-      <PromotionalBanner />
 
       <main>
         <Hero />
