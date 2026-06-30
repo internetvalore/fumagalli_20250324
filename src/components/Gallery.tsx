@@ -2,114 +2,23 @@ import React, { useState, useRef, useCallback, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, X } from 'lucide-react';
 
 const images = [
-  {
-    url: 'https://leprimescelte.com/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-16-at-09.49.55.jpeg',
-    title: 'Letto Matrimoniale a Scomparsa - Chiuso'
-  },
-  {
-    url: 'https://leprimescelte.com/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-16-at-09.49.56-3.jpeg',
-    title: 'Letto Matrimoniale a Scomparsa - Aperto'
-  },
-  {
-    url: 'https://leprimescelte.com/wp-content/uploads/2025/03/Fum001.jpeg',
-    title: 'Letto a Scomparsa con Design Moderno'
-  },
-  {
-    url: 'https://leprimescelte.com/wp-content/uploads/2025/03/Fum002.jpeg',
-    title: 'Soluzione Salvaspazio Elegante'
-  },
-  {
-    url: 'https://leprimescelte.com/wp-content/uploads/2025/03/Fum003.jpeg',
-    title: 'Letto Matrimoniale a Scomparsa'
-  },
-  {
-    url: 'https://leprimescelte.com/wp-content/uploads/2025/03/Fum004.jpeg',
-    title: 'Sistema Integrato con Libreria'
-  },
-  {
-    url: 'https://leprimescelte.com/wp-content/uploads/2025/03/Fum005.jpeg',
-    title: 'Letto a Scomparsa con Finiture di Pregio'
-  },
-  {
-    url: 'https://leprimescelte.com/wp-content/uploads/2025/03/Fum006.jpeg',
-    title: 'Soluzione Completa per Camera'
-  },
-  {
-    url: 'https://leprimescelte.com/wp-content/uploads/2025/03/Fum007.jpeg',
-    title: 'Design Contemporaneo'
-  },
-  {
-    url: 'https://leprimescelte.com/wp-content/uploads/2025/03/Fum008.jpeg',
-    title: 'Letto a Scomparsa con Armadio Integrato'
-  },
-  {
-    url: 'https://leprimescelte.com/wp-content/uploads/2025/03/Fum009.jpeg',
-    title: 'Sistema Modulare Personalizzato'
-  },
-  {
-    url: 'https://leprimescelte.com/wp-content/uploads/2025/03/Fum010.jpeg',
-    title: 'Letto a Scomparsa di Design'
-  },
-  {
-    url: 'https://leprimescelte.com/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-16-at-09.49.56.jpeg',
-    title: 'Soluzione Salvaspazio'
-  },
-  {
-    url: 'https://leprimescelte.com/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-16-at-09.49.56-1.jpeg',
-    title: 'Design Moderno'
-  },
-  {
-    url: 'https://leprimescelte.com/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-16-at-09.49.56-2.jpeg',
-    title: 'Letto a Scomparsa Personalizzato'
-  },
-  {
-    url: 'https://leprimescelte.com/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-24-at-18.22.19-1.jpeg',
-    title: 'Letto a Scomparsa con Divano'
-  },
-  {
-    url: 'https://leprimescelte.com/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-27-at-18.29.24.jpeg',
-    title: 'Soluzione Moderna per Camera'
-  },
-  {
-    url: 'https://leprimescelte.com/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-27-at-18.29.24-1.jpeg',
-    title: 'Letto a Scomparsa con Armadio'
-  },
-  {
-    url: 'https://leprimescelte.com/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-27-at-18.29.24-2.jpeg',
-    title: 'Design Elegante per Spazi Ridotti'
-  },
-  {
-    url: 'https://leprimescelte.com/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-27-at-18.29.25.jpeg',
-    title: 'Soluzione Completa con Scrivania'
-  },
-  {
-    url: 'https://leprimescelte.com/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-27-at-18.29.25-1.jpeg',
-    title: 'Letto a Scomparsa con Mensole'
-  },
-  {
-    url: 'https://leprimescelte.com/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-27-at-18.29.25-2.jpeg',
-    title: 'Sistema Modulare Personalizzabile'
-  },
-  {
-    url: 'https://leprimescelte.com/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-27-at-18.29.25-3.jpeg',
-    title: 'Letto a Scomparsa per Studio'
-  },
-  {
-    url: 'https://leprimescelte.com/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-27-at-18.29.25-4.jpeg',
-    title: 'Soluzione Salvaspazio Moderna'
-  },
-  {
-    url: 'https://leprimescelte.com/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-27-at-18.29.25-5.jpeg',
-    title: 'Letto a Scomparsa con Libreria'
-  },
-  {
-    url: 'https://leprimescelte.com/wp-content/uploads/2025/03/WhatsApp-Image-2025-03-08-at-13.56.20.jpeg',
-    title: 'Nuova Realizzazione Letto a Scomparsa'
-  },
-  {
-    url: 'https://leprimescelte.com/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-16-at-09.49.55-1.jpeg',
-    title: 'Letto con Libreria Integrata'
-  }
+  { url: '/images/gallery/851ec7a0-3746-47f9-8ed3-9595ead37e91.png', title: 'Letto a Scomparsa' },
+  { url: '/images/gallery/IMG_1393.PNG', title: 'Letto Matrimoniale a Scomparsa' },
+  { url: '/images/gallery/IMG_1394.PNG', title: 'Soluzione Salvaspazio Elegante' },
+  { url: '/images/gallery/IMG_1395.PNG', title: 'Design Contemporaneo' },
+  { url: '/images/gallery/IMG_1396.PNG', title: 'Sistema Integrato con Libreria' },
+  { url: '/images/gallery/IMG_1397.PNG', title: 'Letto a Scomparsa con Armadio' },
+  { url: '/images/gallery/IMG_1398.PNG', title: 'Soluzione Completa per Camera' },
+  { url: '/images/gallery/IMG_1399.PNG', title: 'Letto a Scomparsa con Finiture di Pregio' },
+  { url: '/images/gallery/IMG_1400.PNG', title: 'Sistema Modulare Personalizzato' },
+  { url: '/images/gallery/IMG_1401.PNG', title: 'Letto a Scomparsa con Divano' },
+  { url: '/images/gallery/IMG_1402.PNG', title: 'Soluzione Moderna per Camera' },
+  { url: '/images/gallery/IMG_1403.PNG', title: 'Letto a Scomparsa con Mensole' },
+  { url: '/images/gallery/IMG_1404.PNG', title: 'Design Elegante per Spazi Ridotti' },
+  { url: '/images/gallery/IMG_1406.PNG', title: 'Letto Matrimoniale a Scomparsa - Aperto' },
+  { url: '/images/gallery/IMG_1407.PNG', title: 'Nuova Realizzazione' },
+  { url: '/images/gallery/IMG_1410.PNG', title: 'Soluzione Salvaspazio Moderna' },
+  { url: '/images/gallery/IMG_1411.PNG', title: 'Letto con Libreria Integrata' },
 ];
 
 function FullscreenGallery({ startIndex, onClose }: { startIndex: number; onClose: () => void }) {
