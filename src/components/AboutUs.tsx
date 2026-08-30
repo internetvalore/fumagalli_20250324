@@ -55,19 +55,16 @@ const AboutUs = () => {
               icon: Award,
               title: 'Esperienza',
               description: 'Oltre 65 anni di specializzazione nella progettazione e realizzazione di letti a scomparsa',
-              icon: Award,
             },
             {
               icon: MapPin,
               title: 'Posizione Strategica',
               description: 'Showroom situato a Lissone (MB), facilmente raggiungibile da Milano e hinterland',
-              icon: MapPin,
             },
             {
               icon: Tool,
               title: 'Soluzioni Su Misura',
               description: 'Progettiamo e realizziamo soluzioni personalizzate per ottimizzare ogni spazio',
-              icon: Tool,
             }
           ].map((item, index) => (
             <div 

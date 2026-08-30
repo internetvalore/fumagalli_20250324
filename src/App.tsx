@@ -28,7 +28,10 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16">
             <div className="flex-shrink-0 flex items-center">
-              <span className="text-2xl font-bold text-gray-800">Fumagalli Letti a Scomparsa</span>
+              <div className="flex flex-col">
+                <span className="text-2xl font-bold text-gray-800 leading-tight">Fumagalli Letti a Scomparsa</span>
+                <span className="text-sm font-medium text-gray-500">Milano Lissone</span>
+              </div>
             </div>
 
             {/* Mobile menu button */}
