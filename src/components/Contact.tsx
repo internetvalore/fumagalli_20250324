@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Phone, Clock, MessageCircle } from 'lucide-react';
+import { MapPin, Clock } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -26,30 +26,12 @@ const Contact = () => {
               </div>
 
               <div className="flex items-start">
-                <Phone className="w-6 h-6 text-blue-600 mt-1 mr-4" />
-                <div>
-                  <h4 className="font-semibold">WhatsApp</h4>
-                  <p className="text-gray-600">+39 375 5961916</p>
-                </div>
-              </div>
-
-              <div className="flex items-start">
                 <Clock className="w-6 h-6 text-blue-600 mt-1 mr-4" />
                 <div>
                   <h4 className="font-semibold">Orari</h4>
                   <p className="text-gray-600">Su appuntamento</p>
                 </div>
               </div>
-            </div>
-
-            <div className="mt-8">
-              <a
-                href="https://wa.me/+393755961916?text=Vorrei fissare un appuntamento"
-                className="inline-flex items-center bg-green-500 text-white px-6 py-3 rounded-full hover:bg-green-600 transition-colors"
-              >
-                <MessageCircle className="mr-2" size={20} />
-                Prenota un appuntamento
-              </a>
             </div>
           </div>
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { MessageCircle, ChevronDown } from 'lucide-react';
+import { ChevronDown } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -28,13 +28,6 @@ const Hero = () => {
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
-        <a
-          href="https://wa.me/393755961916"
-          className="inline-flex items-center bg-green-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-green-600 transition-colors mb-8"
-        >
-          <MessageCircle className="mr-2" size={24} />
-          Contattaci su WhatsApp per informazioni
-        </a>
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
           Ottimizza il tuo spazio con i nostri letti a scomparsa su misura!
         </h1>
