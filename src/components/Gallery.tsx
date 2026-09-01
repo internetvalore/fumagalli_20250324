@@ -2,9 +2,7 @@ import React, { useState, useRef, useCallback, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, X } from 'lucide-react';
 
 const images = [
-  { url: '/images/gallery/851ec7a0-3746-47f9-8ed3-9595ead37e91.png', title: 'Letto a Scomparsa' },
-  { url: '/images/gallery/IMG_1393.PNG', title: 'Letto Matrimoniale a Scomparsa' },
-  { url: '/images/gallery/IMG_1394.PNG', title: 'Soluzione Salvaspazio Elegante' },
+  { url: '/images/gallery/Immagine1crop.png', title: 'Soluzione Salvaspazio Elegante' },
   { url: '/images/gallery/IMG_1395.PNG', title: 'Design Contemporaneo' },
   { url: '/images/gallery/IMG_1396.PNG', title: 'Sistema Integrato con Libreria' },
   { url: '/images/gallery/IMG_1397.PNG', title: 'Letto a Scomparsa con Armadio' },
