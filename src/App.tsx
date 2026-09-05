@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Clock, ChevronDown, Menu, X } from 'lucide-react';
+import { Phone, MapPin, Clock, ChevronDown, Menu, X, MessageCircle } from 'lucide-react';
 import Hero from './components/Hero';
 import AboutUs from './components/AboutUs';
 import Gallery from './components/Gallery';
@@ -50,6 +50,13 @@ function App() {
               <button onClick={() => scrollToSection('gallery')} className="text-gray-700 hover:text-gray-900">Galleria</button>
               <button onClick={() => scrollToSection('products')} className="text-gray-700 hover:text-gray-900">Prodotti</button>
               <button onClick={() => scrollToSection('contact')} className="text-gray-700 hover:text-gray-900">Contatti</button>
+              <a
+                href="https://wa.me/+393758719499"
+                className="bg-green-500 text-white px-4 py-2 rounded-full flex items-center space-x-2 hover:bg-green-600 transition-colors"
+              >
+                <MessageCircle size={20} />
+                <span>WhatsApp</span>
+              </a>
             </div>
           </div>
         </div>
@@ -82,6 +89,12 @@ function App() {
               >
                 Contatti
               </button>
+              <a
+                href="https://wa.me/+393758719499"
+                className="block px-3 py-2 bg-green-500 text-white rounded-md text-center mt-4"
+              >
+                Contattaci su WhatsApp
+              </a>
             </div>
           </div>
         )}
@@ -121,6 +134,10 @@ function App() {
                   Via Carducci 59, Lissone (MB)
                 </p>
                 <p className="flex items-center">
+                  <Phone className="mr-2" size={20} />
+                  +39 375 8719499
+                </p>
+                <p className="flex items-center">
                   <Clock className="mr-2" size={20} />
                   Su appuntamento
                 </p>
@@ -141,15 +158,13 @@ function App() {
             </div>
             <div>
               <h3 className="text-xl font-bold mb-4">Contattaci</h3>
-              <button
-                onClick={() => {
-                  const el = document.getElementById('contact');
-                  if (el) el.scrollIntoView({ behavior: 'smooth' });
-                }}
-                className="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition-colors"
+              <a
+                href="https://wa.me/+393758719499"
+                className="inline-flex items-center bg-green-500 text-white px-6 py-3 rounded-full hover:bg-green-600 transition-colors"
               >
-                Vai alla sezione contatti
-              </button>
+                <MessageCircle className="mr-2" size={20} />
+                Scrivici su WhatsApp
+              </a>
             </div>
           </div>
           <div className="mt-8 pt-8 border-t border-gray-800 text-center">
