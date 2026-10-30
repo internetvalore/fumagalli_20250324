@@ -33,7 +33,7 @@ const Hero = () => {
           className="inline-flex items-center bg-green-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-green-600 transition-colors mb-8"
         >
           <MessageCircle className="mr-2" size={24} />
-          Contattaci su WhatsApp per informazioni
+          Contattaci su WhatsApp per appuntamento
         </a>
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
           Ottimizza il tuo spazio con i nostri letti a scomparsa su misura!
